@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace tnh_WebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class ValuesController : Controller
     {
         // GET api/values

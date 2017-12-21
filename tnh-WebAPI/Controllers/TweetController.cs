@@ -9,7 +9,7 @@ using Newtonsoft.Json;
 namespace tnh_WebAPI.Controllers
 {
     [Produces("application/json")]
-    [Route("api/tweet")]
+    [Route("tweet")]
     public class TweetController : Controller
     {
         [HttpGet]
